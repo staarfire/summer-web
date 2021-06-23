@@ -1,0 +1,121 @@
+body {
+  background-color: indigo;
+}
+
+.circle5 {
+  background: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+  position: fixed;
+  left: 810px;
+  top: 390px;
+  animation: 2s pulse infinite alternate linear;
+}
+
+
+.circle4 {
+  background: purple;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: auto;
+  position: fixed;
+  left: 710px;
+  top: 290px;
+  animation: 2.5s pulse infinite alternate linear;
+}
+
+.circle3 {
+  background: white;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin: auto;
+  position: fixed;
+  left: 610px;
+  top: 185px;
+  animation: 3s pulse infinite alternate linear;
+}
+
+.circle2 {
+  background: blue;
+  width: 750px;
+  height: 750px;
+  border-radius: 50%;
+  margin: auto;
+  position: fixed;
+  left: 485px;
+  top: 50px;
+  animation: pulse 3.5s infinite alternate linear;
+}
+
+.circle1 {
+  background: purple;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  margin: auto;
+  position: fixed;
+  left: 350px;
+  top: -70px;
+  animation: pulse 4s infinite alternate linear;
+}
+
+.circlebg {
+  background: pink;
+  width: 1250px;
+  height: 1250px;
+  border-radius: 50%;
+  margin: auto;
+  position: fixed;
+  left: 225px;
+  top: -200px;
+  animation: pulse 4.5s infinite alternate linear;
+}
+
+
+@keyframes pulse {
+  0% {
+    background: darkblue;
+    transform: scale(1);
+  }
+  100% {
+    background: darkorchid;
+    transform: scale(2);
+  }
+}
+
+/*@keyframes pulse {
+  0% {
+    background: white;
+    transform: scale(1);
+  }
+  100% {
+    background: blue;
+    transform: scale(2);
+  }
+}*/
+
+/*@keyframes pulse {
+  0% {
+    background: blue;
+    transform: scale(1);
+  }
+  100% {
+    background: magenta;
+    transform: scale(2);
+  }
+}*/
+
+/*@keyframes pulse {
+  0% {
+    background: purple;
+    transform: scale(1);
+  }
+  100% {
+    background: darkblue;
+    transform: scale(2);
+  }
+}*/
